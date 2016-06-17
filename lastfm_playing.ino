@@ -2,7 +2,8 @@
   Example file that uses a webhook to last.fm to get the currently playing
   song (which can be a scrobbled Spotify song).
 
-  More info can be found on https://steviethecat.tumblr.com/
+  More info can be found on
+  http://steviethecat.tumblr.com/post/146076873796/lastfm-spotify-photon-oled-webhook
 
   First make sure you've got an API account on last.fm and have your API
   key around. Then create the webhook either directly by running:
