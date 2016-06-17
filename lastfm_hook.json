@@ -1,0 +1,18 @@
+{
+"eventName": "lastfm_currenttrack",
+"name": "lastfm_hook",
+"url": "http://ws.audioscrobbler.com/2.0/",
+"requestType": "GET",
+"headers": null,
+"query": {
+	"method": "user.getrecenttracks",
+	"format": "json",
+	"user": "LASTFMUSER",
+	"api_key": "LASTFMAPIKEY",
+	"limit": 1
+	},
+"responseTemplate": "{{#recenttracks}}{{#track}}{{#@attr.nowplaying}}{{artist.#text}} - {{name}}{{/@attr.nowplaying}}{{/track}}{{/recenttracks}}",
+"json": null,
+"auth": null,
+"mydevices": true
+}
